@@ -193,6 +193,22 @@
 					ajax.send()
 				}
 		</script>
+		<style>
+			.menuSide {
+				border-right:1px solid #ddd;
+			}
+			.menuSide a{
+				font-size: 14px;
+				padding:8px 0px;
+				padding-left: 5px;
+				text-decoration: none;
+			}
+			.menuSide a:hover{
+				background: #eee;
+				border-radius:0px 500px 500px 0px;
+				border-left:1px solid DodgerBlue;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -221,14 +237,14 @@
 	    	</div>
 	    	
 	    	<div class="row">
-		    	<div class="col-md-3 align-self-start">
-	    			<a href="#" class="text-black-50 d-block p-1" onclick="requisitarPagina('catalago-filmes.html')">Catalogo de Filmes</a>
-	    			<a href="#" class="text-black-50 d-block p-1" onclick="requisitarPagina('app_pesquisa_endereco/index.html')">App de Pesquisa endereço</a>
-		    		<a href="#" class="text-black-50 d-block p-1" onclick="requisitarPagina('xml-introducao.html')">XML Introdução</a>
-		    		<a href="#" class="text-black-50 d-block p-1" onclick="requisitarPagina('recuperando-xml-do-servidor.html')">Recuperando XML do Servidor</a>
-		    		<a href="#" class="text-black-50 d-block p-1" onclick="requisitarPagina('convertendo-xml-para-json.html')">Convertndo XML para JSON</a>
-		    		<a href="#" class="text-black-50 d-block p-1" onclick="requisitarPagina('listando-filmes-na-pagina.html')">Listando Filmes na Página</a>
-		    		<a href="#" class="text-black-50 d-block p-1" onclick="requisitarPagina('refactoring-backend-usando-json.html')">Refactoring back-end usando JSON</a>
+		    	<div class="col-md-3 align-self-start menuSide">
+	    			<a href="#" class="text-black-50 d-block" onclick="requisitarPagina('catalago-filmes.html')">Catalogo de Filmes</a>
+	    			<a href="#" class="text-black-50 d-block" onclick="requisitarPagina('app_pesquisa_endereco/index2.html')">App de Pesquisa endereço</a>
+		    		<a href="#" class="text-black-50 d-block" onclick="requisitarPagina('xml-introducao.html')">XML Introdução</a>
+		    		<a href="#" class="text-black-50 d-block" onclick="requisitarPagina('recuperando-xml-do-servidor.html')">Recuperando XML do Servidor</a>
+		    		<a href="#" class="text-black-50 d-block" onclick="requisitarPagina('convertendo-xml-para-json.html')">Convertndo XML para JSON</a>
+		    		<a href="#" class="text-black-50 d-block" onclick="requisitarPagina('listando-filmes-na-pagina.html')">Listando Filmes na Página</a>
+		    		<a href="#" class="text-black-50 d-block" onclick="requisitarPagina('refactoring-backend-usando-json.html')">Refactoring back-end usando JSON</a>
 
 		    	</div>
 		    	<div class="col-md-7 align-self-start" id="conteudo">
